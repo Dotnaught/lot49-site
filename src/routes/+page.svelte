@@ -1,13 +1,16 @@
-<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
+<script lang="ts">
+    import Productcard from "$lib/productcard.svelte";
+import ProductCard from "$lib/productcard.svelte";
+</script>
 
 <div class="container h-full mx-auto flex justify-center items-center">
-	<div class="space-y-5">
-		<h1>Let's get cracking bones!</h1>
-		<p>Start by exploring:</p>
-		<ul>
-			<li><code>/src/routes/+layout.svelte</code> - barebones layout, the CSS import order is critical!</li>
-			<li><code>/src/app.postcss</code> - minimal css to make the page full screen, may not be relevant for your project</li>
-			<li><code>/src/routes/+page.svelte</code> - this page, you can replace the contents</li>
-		</ul>
+	<div class="grid grid-col-3 gap-4">
+		<div class=col-span-3>
+			<h1 class="text-4xl font-bold">Lot 49 Labs</h1>
+		</div>
+		<Productcard />
+		<div class=col-span-3>
+			<button class="btn variant-filled-primary">Non-functional button</button>
+		</div>
 	</div>
 </div>
