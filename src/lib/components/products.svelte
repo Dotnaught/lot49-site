@@ -30,7 +30,7 @@
     </script>
     
     
-    <div class="grid grid-cols-3 gap-4 text-center text-secondary-500">
+    <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-center text-secondary-500">
         {#each obj as item}
         <ProductCard name={item.name}
             description={item.description}

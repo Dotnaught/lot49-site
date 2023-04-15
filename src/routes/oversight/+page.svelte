@@ -7,7 +7,7 @@
 	{ label: 'Oversight', link: '/oversight' }
     ];
 </script>
-<div class="box-content w-1/3 p-4 space-y-4 mx-auto">
+<div class="box-content sm:w-1 md:w-2/3 lg:w-1/3 p-4 space-y-4 mx-auto">
     <div>
         <ol class="breadcrumb">
             {#each myBreadcrumbs as crumb, i}

@@ -8,7 +8,7 @@
   <div class="card p-4">
    
     <a href="{url}">
-    <Avatar src="{image}?img=48" class="mx-auto" width="w-32" rounded="rounded-full" alt="" />
+    <Avatar src="{image}?img=48" class="mx-auto w-16 md:w-32 lg:w-48" rounded="rounded-full" alt="" />
     </a>
   
     <div class="card-body p-4">
