@@ -1,7 +1,7 @@
 <script lang="ts">
     const myBreadcrumbs = [
 	{ label: 'Lot 49', link: '/' },
-	{ label: 'About', link: '/about' }
+	{ label: 'Privacy', link: '/privacy' }
 ];
 </script>
 
@@ -19,6 +19,15 @@
             {/each}
         </ol>
     </div>
-    <div>© Lot 49 Labs, LLC</div>
+    <div>
+        <p>Lot 49 Labs doesn't collect web data.</p>
+        <p>We don't use unnecessary cookies.</p> 
+        <p>We don't serve ads.</p>
+        <p>We don't use analytics or third-party tracking scripts.
+        <p>We don't sell your data, which we don't have.</p>
+        <p>If you email us, we'll have your email, which we won't sell.</p>
+        <p>That's our Privacy Policy as of April 16, 2023.</p>
+        <p>Things may change at some point. We'll revise this policy if so.</p>
+    </div>
     
 </div>

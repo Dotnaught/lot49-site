@@ -1,7 +1,7 @@
 <script lang="ts">
     const myBreadcrumbs = [
 	{ label: 'Lot 49', link: '/' },
-	{ label: 'About', link: '/about' }
+	{ label: 'Contact', link: '/contact' }
 ];
 </script>
 
@@ -19,6 +19,6 @@
             {/each}
         </ol>
     </div>
-    <div>© Lot 49 Labs, LLC</div>
+    <div>Send email to support at lot49 dot com.</div>
     
 </div>

@@ -1,11 +1,16 @@
 <script lang="ts">
 import ProductMenu from "$lib/components/products.svelte";
+import Footer from "$lib/components/footer.svelte";
+import Logo from "$lib/assets/lot49-logo-gold.png";
 			  
 </script>
-
-<h1 class="text-center text-primary-500 p-10">Lot 49 Labs</h1>
+<main>
+<img src="{Logo}" class="mx-auto" alt="Lot 49" />
 
 <div>
 	<ProductMenu />
 </div>
-
+</main>
+<footer>
+	<Footer />
+</footer>
