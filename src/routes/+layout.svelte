@@ -6,6 +6,11 @@
     //import '@skeletonlabs/skeleton/styles/all.css';
     // Most of your app wide CSS should be put in this file
     import '../app.postcss';
+    interface Props {
+        children?: import('svelte').Snippet;
+    }
+
+    let { children }: Props = $props();
 </script>
 
-<slot></slot>
+{@render children?.()}

@@ -1,7 +1,21 @@
 <script lang="ts">
 	//import type { Products } from "../types/products";
   import { Avatar } from '@skeletonlabs/skeleton';
-    export let name: string, description: string, author: string, image: string, url: string;
+  interface Props {
+    name: string;
+    description: string;
+    author: string;
+    image: string;
+    url: string;
+  }
+
+  let {
+    name,
+    description,
+    author,
+    image,
+    url
+  }: Props = $props();
   </script>
 <main>
 <div class="card-container">
