@@ -12,27 +12,27 @@
     "build-cf-types": "wrangler types && mv worker-configuration.d.ts src/"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20250121.0",
-    "@skeletonlabs/skeleton": "^2.10.4",
-    "@skeletonlabs/tw-plugin": "^0.4.0",
-    "@sveltejs/adapter-auto": "^3.3.1",
-    "@sveltejs/adapter-cloudflare": "^4.9.0",
-    "@sveltejs/kit": "^2.20.6",
-    "@sveltejs/vite-plugin-svelte": "^4.0.4",
-    "@types/node": "^20.17.16",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.5.1",
-    "postcss-load-config": "^5.1.0",
-    "svelte": "^5.19.2",
-    "svelte-check": "^4.1.4",
-    "tailwindcss": "^3.4.17",
+    "@cloudflare/workers-types": "^4.20250718.0",
+    "@skeletonlabs/skeleton": "^3.1.7",
+    "@skeletonlabs/tw-plugin": "^0.4.1",
+    "@sveltejs/adapter-auto": "^6.0.1",
+    "@sveltejs/adapter-cloudflare": "^7.1.0",
+    "@sveltejs/kit": "^2.25.1",
+    "@sveltejs/vite-plugin-svelte": "^6.1.0",
+    "@types/node": "^24.0.14",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "postcss-load-config": "^6.0.1",
+    "svelte": "^5.36.8",
+    "svelte-check": "^4.3.0",
+    "tailwindcss": "^4.1.11",
     "tslib": "^2.8.1",
-    "typescript": "^5.7.3",
-    "vite": "^5.4.19",
-    "wrangler": "^3.105.0"
+    "typescript": "^5.8.3",
+    "vite": "^7.0.5",
+    "wrangler": "^4.25.0"
   },
   "type": "module",
   "dependencies": {
-    "eslint": "^9.18.0"
+    "eslint": "^9.31.0"
   }
 }
