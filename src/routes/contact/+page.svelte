@@ -12,7 +12,7 @@
                 <!-- If crumb index is less than the breadcrumb length minus 1 -->
                 {#if i < myBreadcrumbs.length - 1}
                     <li class="crumb"><a href={crumb.link}>{crumb.label}</a></li>
-                    <li class="crumb-separator" aria-hidden>&rsaquo;</li>
+                    <li class="crumb-separator" aria-hidden="true">&rsaquo;</li>
                 {:else}
                     <li class="crumb">{crumb.label}</li>
                 {/if}

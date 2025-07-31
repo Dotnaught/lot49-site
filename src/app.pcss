@@ -1,5 +1,24 @@
+@import 'tailwindcss';
+
+@import '@skeletonlabs/skeleton';
+@import '@skeletonlabs/skeleton/optional/presets';
+@import '@skeletonlabs/skeleton/themes/wintry';
+
+@source '../node_modules/@skeletonlabs/skeleton-svelte/dist';
+
 /* Write your global styles here, in PostCSS syntax */
 @tailwind base;
 /* Write your global styles here, in PostCSS syntax */
 @tailwind components;
 @tailwind utilities;
+
+/* Force dark background */
+html,
+body {
+	background-color: #000000 !important;
+	color: #ffffff !important;
+}
+
+.sveltekit-body-container {
+	background-color: #000000 !important;
+}

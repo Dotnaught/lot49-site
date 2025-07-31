@@ -30,7 +30,7 @@
     </script>
     
     
-    <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-center">
+    <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-center" style="background-color: #000000; color: #ffffff;">
         {#each obj as item}
         <ProductCard name={item.name}
             description={item.description}

@@ -1,4 +1,5 @@
 <script lang="ts">
+    import "../app.css";
 	import "../app.pcss";
     // The ordering of these imports is critical to your app working properly
     //import '@skeletonlabs/skeleton/themes/theme-crimson.css';
